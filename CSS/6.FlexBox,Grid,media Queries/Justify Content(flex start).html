@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Flex Container(Justify Contenr) START</title>
+    <style>
+                *{margin: 0; padding: 0;}
+       
+       .box{height: 80px; width: 80px;
+           border: 5px rgb(58, 5, 98) double; margin: 5px;
+       }
+       #box1{background-color: aquamarine;}
+       #box2{background-color: tomato;}
+       #box3{background-color: whitesmoke;}
+       #box4{background-color:teal ;}
+       #container{
+           height: 700px; width: 750px;
+           padding: 10px; margin: 15px;
+           background-color: wheat;
+           border: 3px solid black;
+           display: flex;
+
+           justify-content: flex-start;
+       }
+    </style>
+</head>
+<body>
+   <h1>Justify Content</h1>
+   <div id="container">
+    <div id="box1" class="box">Flex 1</div>
+    <div id="box2" class="box">Flex 2</div>
+    <div id="box3" class="box">Flex 3</div>
+    <div id="box4" class="box">Flex 4</div>
+   </div>
+</body>
+</html>

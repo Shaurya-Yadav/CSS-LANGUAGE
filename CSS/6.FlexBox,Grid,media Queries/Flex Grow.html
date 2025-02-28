@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Flex Item (Flex-Grow)</title>
+    <style>
+        *{margin: 0; padding: 0;}
+        .box{height: 80px; width: 80px; margin: 3px; border: 2px black double;}
+        #container{
+            height: 300px; width: 500px;
+            margin: 20px; padding: 10px;            background-color: cadetblue;
+            border: 3px solid black;
+        display: flex;
+        justify-content: center;
+        }
+        #box1{background-color: yellowgreen;}
+        #box2{background-color: violet;}
+        #box3{background-color: tomato;
+        flex-grow: 1;}
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div id="box1" class="box">flex 1</div>
+        <div id="box2" class="box">flex 2</div>
+        <div id="box3" class="box">flex 3</div>
+        <div id="box4" class="box">flex 4</div>
+    </div>
+</body>
+</html>

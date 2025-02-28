@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: p;
+}
+#bar{
+    background-color: cadetblue;
+    color: rgba(187,234,144,0.7);
+}
+main{
+    height: 600px;
+    background-color: wheat;
+}
+#radhey{
+    width: 200px;
+    height: 250px;
+    /* background-image: url(Radhey\ radhe.jpg);
+    background-repeat: no-repeat;
+    background-size: contain; OR
+    Short hand */
+    background: rgb(241, 71, 9) url(Radhey\ radhe.jpg) no-repeat center;
+    background-size: contain; 
+} 
