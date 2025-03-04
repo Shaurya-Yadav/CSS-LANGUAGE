@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Flex Wrap</title>
+    <style>
+        *{margin: 0; padding: 0;}
+        .box{height: 180px; width: 170px; margin: 3px; border: 2px black double;}
+        #container{
+            height: 900px; width: 800px;
+            margin: 20px; padding: 10px;            background-color: cadetblue;
+            border: 3px solid black;
+        display: flex;
+        flex-wrap: wrap;
+        }
+        #box1{background-color: yellowgreen;}
+        #box2{background-color: violet;}
+        #box3{background-color: tomato;}
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div id="box1" class="box">flex 1</div>
+        <div id="box2" class="box">flex 2</div>
+        <div id="box3" class="box">flex 3</div>
+        <div id="box3" class="box">flex 4</div>
+        <div id="box3" class="box">flex 5</div>
+        <div id="box3" class="box">flex 6</div>
+        <div id="box3" class="box">flex 7</div>
+    </div>
+</body>
+</html>

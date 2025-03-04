@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CSS Transform (Scale)</title>
+    <style>
+        .box{
+            height: 70px;
+            width: 70px;
+            padding: 5px;
+            margin: 15px;
+            border: 3px double black;
+            border-radius: 5px;
+            position: relative;
+            top: 50px;
+            left: 100px;
+            transition: all 1s ease-in;
+            background-color: azure;
+        }
+        #box1:hover{
+            background-color: yellowgreen;
+                transform: scale(0.5);
+        }
+        #box2:hover{
+            background-color: violet;
+            transform: scale(2);
+        }
+        #box3:hover{
+            background-color:tomato;
+            transform: scalex(2);
+        }
+        #box4:hover{
+            background-color:teal;
+            transform: scaley(4);
+        }
+    </style>
+</head>
+<body>
+    <div id="box1" class="box">0.5 Scale</div>
+    <div id="box2" class="box">2 Scale</div>
+    <div id="box3" class="box">x-2 Scale</div>
+    <div id="box4" class="box">y-4 Scale</div>
+</body>
+</html>

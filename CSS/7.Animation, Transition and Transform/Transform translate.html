@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CSS Transform (Translate)</title>
+    <style>
+        .box{
+            height: 100px;
+            width: 120px;
+            padding: 5px;
+            margin: 15px;
+            border: 3px double black;
+            border-radius: 5px;
+            position: relative;
+            top: 50px;
+            left: 100px;
+            transition: all 1s ease-in;
+            background-color: azure;
+        }
+        #box1:hover{
+            background-color: yellowgreen;
+                transform: translate(50px);
+        }
+        #box2:hover{
+            background-color: violet;
+            transform: translate(50px, 50px);
+        }
+        #box3:hover{
+            background-color:tomato;
+            transform: translatex(50px);
+        }
+        #box4:hover{
+            background-color:teal;
+            transform: translatey(50px);
+        }
+    </style>
+</head>
+<body>
+    <div id="box1" class="box">Translate (50px)</div>
+    <div id="box2" class="box">Translate(50px, 50px)</div>
+    <div id="box3" class="box">Translatex(50px)</div>
+    <div id="box4" class="box">Translatey(50px)</div>
+</body>
+</html>

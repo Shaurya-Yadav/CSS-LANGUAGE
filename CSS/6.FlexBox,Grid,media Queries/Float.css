@@ -1,0 +1,20 @@
+.container{
+    height: 110px;
+    width:300px;
+    border: 3px dotted black;
+    background-color: springgreen;
+    text-align: center;
+}
+.box{
+    height: 100px;
+    width: 100px;
+    margin: 6px;
+}
+#box1{
+    background-color: rgb(162, 39, 39);
+    float: left;
+}
+#box2{
+    background-color: rgb(179, 236, 10);
+    float: right;
+}
